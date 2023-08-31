@@ -1,16 +1,98 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>My Favorite Movie - Movie Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        aside {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <h1>My Favorite Movie - Movie Title</h1>
+    </header>
 
+    <nav>
+        <a href="#actor" id="nav-actor">Actors</a>
+        <a href="#quote" id="nav-quote">Quotes</a>
+    </nav>
+
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Write a brief summary of the plot of your favorite movie here.</p>
+        </section>
+
+        <section id="actor">
+            <h2>Actors</h2>
+            <p>Include details about the actors in the movie here.</p>
+        </section>
+
+        <section id="quote">
+            <h2>Quotes</h2>
+            <p>Include your favorite quote from the movie here.</p>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Movie Details</h2>
+        <p>IMDb Rating: 8.5</p>
+        <p>Release Date: January 15, 20XX</p>
+    </aside>
+
+    <footer>
+        Produced by: <span>Name of the Producer</span>
+    </footer>
 </body>
-
 </html>
